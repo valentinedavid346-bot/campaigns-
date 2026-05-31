@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sophia Ladron for Student Body President | The American Dream School</title>
+  <title>Jazleen Nolasco for Student Body President | Belmont Preparatory</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <style>
     :root {
-      --black: #06060f;
-      --deep: #08081a;
-      --red: #c0392b;
-      --red-mid: #e74c3c;
-      --red-light: #f5b7b1;
-      --blue: #1a3a6e;
-      --blue-mid: #2e6db4;
-      --blue-light: #adc6e8;
-      --blue-glow: rgba(26,58,110,0.15);
+      --black: #080010;
+      --deep: #0f0019;
+      --red: #7c3aed;
+      --red-mid: #9b59b6;
+      --red-light: #c4b5fd;
+      --blue: #1a0a2e;
+      --blue-mid: #6d28d9;
+      --blue-light: #a78bfa;
+      --blue-glow: rgba(124,58,237,0.15);
       --grey: #6b7280;
-      --grey-light: #f7f8fa;
-      --grey-mid: #e2e5ea;
+      --grey-light: #f5f3ff;
+      --grey-mid: #e9d5ff;
       --white: #ffffff;
       --text: #0d0d1a;
       --text-muted: #6b7280;
-      --accent: #c0392b;
-      --accent-hover: #a93226;
+      --accent: #7c3aed;
+      --accent-hover: #6d28d9;
     }
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
     html { scroll-behavior:smooth; font-size:16px; }
@@ -56,16 +56,16 @@
 
     /* ── DARK MODE ── */
     body.dark { background:#06060f; color:#e8e2f5; }
-    body.dark #meet, body.dark #recommend, body.dark #faq, body.dark #endorse { background:#08081a; }
-    body.dark #ideas, body.dark #blog { background:#06060f; }
-    body.dark .idea-card, body.dark .faq-item, body.dark .endorse-card, body.dark .blog-card { background:#0f0f28; border-color:rgba(192,57,43,0.2); }
+    body.dark #meet, body.dark #recommend, body.dark #faq, body.dark #endorse { background:#0f0019; }
+    body.dark #ideas, body.dark #blog { background:#080010; }
+    body.dark .idea-card, body.dark .faq-item, body.dark .endorse-card, body.dark .blog-card { background:#1a0a2e; border-color:rgba(124,58,237,0.25); }
     body.dark .idea-card h3, body.dark .blog-body h3 { color:#e8e2f5; }
     body.dark .idea-card p, body.dark .blog-body p { color:rgba(232,226,245,0.6); }
     body.dark .section-title { color:#e8e2f5; }
     body.dark .section-desc { color:rgba(232,226,245,0.6); }
-    body.dark .form-group input, body.dark .form-group textarea, body.dark .form-group select { background:#0f0f28; border-color:rgba(192,57,43,0.3); color:#e8e2f5; }
-    body.dark .rec-card { background:#0f0f28; }
-    body.dark .poll-option { background:#0f0f28; border-color:rgba(192,57,43,0.2); }
+    body.dark .form-group input, body.dark .form-group textarea, body.dark .form-group select { background:#1a0a2e; border-color:rgba(124,58,237,0.4); color:#e8e2f5; }
+    body.dark .rec-card { background:#1a0a2e; }
+    body.dark .poll-option { background:#1a0a2e; border-color:rgba(124,58,237,0.25); }
     body.dark .faq-q { color:#e8e2f5; }
     body.dark .faq-a { color:rgba(232,226,245,0.65); }
 
@@ -100,16 +100,16 @@
       pointer-events:none;
     }
     .hero-bg-orb { position:absolute; border-radius:50%; filter:blur(90px); pointer-events:none; }
-    .orb-1 { width:500px; height:500px; background:rgba(192,57,43,0.2); top:-100px; left:-100px; }
-    .orb-2 { width:400px; height:400px; background:rgba(26,58,110,0.22); bottom:-80px; right:-80px; }
-    .orb-3 { width:300px; height:300px; background:rgba(255,255,255,0.04); top:40%; left:50%; transform:translate(-50%,-50%); }
+    .orb-1 { width:500px; height:500px; background:rgba(124,58,237,0.22); top:-100px; left:-100px; }
+    .orb-2 { width:400px; height:400px; background:rgba(30,0,60,0.35); bottom:-80px; right:-80px; }
+    .orb-3 { width:300px; height:300px; background:rgba(124,58,237,0.06); top:40%; left:50%; transform:translate(-50%,-50%); }
 
     /* Red/white/blue stripe accent */
-    .hero-stripe { position:absolute; top:0; left:0; right:0; height:4px; background:linear-gradient(to right, var(--red) 33%, var(--white) 33%, var(--white) 66%, var(--blue-mid) 66%); }
+    .hero-stripe { position:absolute; top:0; left:0; right:0; height:4px; background:linear-gradient(to right, var(--red) 50%, var(--blue-mid) 50%); }
 
     .hero-eyebrow {
       display:inline-flex; align-items:center; gap:0.5rem;
-      background:rgba(192,57,43,0.12); border:1px solid rgba(192,57,43,0.4);
+      background:rgba(124,58,237,0.12); border:1px solid rgba(192,57,43,0.4);
       color:var(--red-light); font-size:0.75rem; font-weight:600;
       letter-spacing:2px; text-transform:uppercase; padding:0.4rem 1.2rem;
       border-radius:99px; margin-bottom:2rem; position:relative; z-index:1;
@@ -139,7 +139,7 @@
       letter-spacing:0.3px; transition:all 0.2s; text-decoration:none;
       display:inline-block; box-shadow:0 0 0 0 rgba(192,57,43,0);
     }
-    .btn-primary:hover { background:var(--accent-hover); transform:translateY(-2px); box-shadow:0 8px 30px rgba(192,57,43,0.4); }
+    .btn-primary:hover { background:var(--accent-hover); transform:translateY(-2px); box-shadow:0 8px 30px rgba(124,58,237,0.4); }
     .btn-secondary {
       background:rgba(255,255,255,0.06); color:rgba(255,255,255,0.8);
       border:1px solid rgba(255,255,255,0.18); padding:0.9rem 2.2rem;
@@ -157,7 +157,7 @@
     .countdown-num { font-family:'Playfair Display',serif; font-size:3.5rem; color:var(--white); line-height:1; font-weight:700; }
     .countdown-unit-label { font-size:0.65rem; color:rgba(255,255,255,0.3); letter-spacing:2px; text-transform:uppercase; margin-top:0.3rem; }
     .countdown-date-row { margin-top:1.5rem; font-size:0.75rem; color:rgba(255,255,255,0.3); }
-    .countdown-date-row input[type="date"] { background:rgba(255,255,255,0.06); border:1px solid rgba(192,57,43,0.35); border-radius:6px; color:rgba(255,255,255,0.6); padding:0.3rem 0.6rem; font-size:0.75rem; margin-left:0.5rem; font-family:'Inter',sans-serif; }
+    .countdown-date-row input[type="date"] { background:rgba(255,255,255,0.06); border:1px solid rgba(124,58,237,0.35); border-radius:6px; color:rgba(255,255,255,0.6); padding:0.3rem 0.6rem; font-size:0.75rem; margin-left:0.5rem; font-family:'Inter',sans-serif; }
     .hero-divider { width:1px; height:80px; background:linear-gradient(to bottom,transparent,rgba(255,255,255,0.1),transparent); margin:3rem auto 0; position:relative; z-index:1; }
 
     /* ── SECTION BASE ── */
@@ -177,7 +177,7 @@
     .photo-outer { position:relative; }
     .photo-frame {
       width:100%; aspect-ratio:3/4;
-      background:linear-gradient(160deg,var(--blue),var(--blue-mid));
+      background:linear-gradient(160deg,#1a0a2e,#3b0764);
       border-radius:24px; overflow:hidden; position:relative;
       box-shadow:0 30px 80px rgba(0,0,0,0.15), 0 0 0 3px var(--red), 0 0 0 6px rgba(192,57,43,0.1);
     }
@@ -195,9 +195,9 @@
 
     /* ── STATS ── */
     #stats { background:var(--deep); border-top:4px solid var(--red); }
-    .stats-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.05); border-radius:20px; overflow:hidden; }
+    .stats-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(124,58,237,0.06); border:1px solid rgba(255,255,255,0.05); border-radius:20px; overflow:hidden; }
     .stat-card { background:var(--deep); padding:2.5rem 1.5rem; text-align:center; transition:background 0.2s; }
-    .stat-card:hover { background:rgba(192,57,43,0.08); }
+    .stat-card:hover { background:rgba(124,58,237,0.1); }
     .stat-num { font-family:'Playfair Display',serif; font-size:3.2rem; color:var(--white); line-height:1; font-weight:700; }
     .stat-label { color:rgba(255,255,255,0.4); font-size:0.78rem; margin-top:0.5rem; font-weight:500; letter-spacing:1px; text-transform:uppercase; }
 
@@ -205,7 +205,7 @@
     #video { background:var(--black); }
     .video-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; }
     .video-card { background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:20px; overflow:hidden; transition:border-color 0.2s,transform 0.2s; }
-    .video-card:hover { border-color:rgba(192,57,43,0.5); transform:translateY(-3px); }
+    .video-card:hover { border-color:rgba(124,58,237,0.6); transform:translateY(-3px); }
     .video-embed { position:relative; padding-bottom:56.25%; background:#050008; }
     .video-embed iframe { position:absolute; inset:0; width:100%; height:100%; border:none; }
     .video-placeholder { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; color:rgba(255,255,255,0.2); gap:0.75rem; }
@@ -231,26 +231,26 @@
       position:relative; overflow:hidden;
     }
     .idea-card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(to right,var(--red),var(--blue)); }
-    .idea-card:hover { border-color:var(--red); transform:translateY(-4px); box-shadow:0 12px 40px rgba(0,0,0,0.08); }
-    .idea-tag { display:inline-block; font-size:0.65rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--red); background:rgba(192,57,43,0.08); padding:0.3rem 0.75rem; border-radius:99px; margin-bottom:1rem; }
+    .idea-card:hover { border-color:var(--red); transform:translateY(-4px); box-shadow:0 12px 40px rgba(124,58,237,0.1); }
+    .idea-tag { display:inline-block; font-size:0.65rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--red); background:rgba(124,58,237,0.1); padding:0.3rem 0.75rem; border-radius:99px; margin-bottom:1rem; }
     .idea-icon { font-size:2rem; margin-bottom:0.75rem; display:block; }
     .idea-card h3 { font-weight:700; font-size:1.05rem; color:var(--text); margin-bottom:0.6rem; line-height:1.3; }
     .idea-card p { color:var(--text-muted); font-size:0.88rem; line-height:1.7; }
     .add-idea-card { background:transparent; border:1.5px dashed var(--grey-mid); border-radius:20px; padding:2rem; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; cursor:pointer; transition:all 0.2s; gap:0.5rem; color:var(--text-muted); }
-    .add-idea-card:hover { border-color:var(--red); color:var(--red); background:rgba(192,57,43,0.04); }
+    .add-idea-card:hover { border-color:var(--red); color:var(--red); background:rgba(124,58,237,0.06); }
     .add-idea-card .add-icon { font-size:1.5rem; }
     .add-idea-card p { font-size:0.85rem; font-weight:600; }
 
     /* ── POLL ── */
     #poll { background:var(--white); }
     .poll-inner { max-width:680px; margin:0 auto; }
-    .poll-note { background:rgba(192,57,43,0.06); border:1px solid rgba(192,57,43,0.2); border-radius:12px; padding:0.85rem 1.2rem; font-size:0.82rem; color:var(--red); font-weight:600; margin-bottom:2rem; display:flex; align-items:center; gap:0.6rem; }
+    .poll-note { background:rgba(124,58,237,0.08); border:1px solid rgba(192,57,43,0.2); border-radius:12px; padding:0.85rem 1.2rem; font-size:0.82rem; color:var(--red); font-weight:600; margin-bottom:2rem; display:flex; align-items:center; gap:0.6rem; }
     .poll-option { display:flex; align-items:center; gap:1rem; padding:1rem 1.25rem; border:1px solid var(--grey-mid); border-radius:14px; margin-bottom:0.6rem; cursor:pointer; transition:all 0.2s; background:var(--grey-light); }
-    .poll-option:hover { border-color:var(--red); background:rgba(192,57,43,0.04); }
-    .poll-option.voted { border-color:var(--red); background:rgba(192,57,43,0.06); cursor:default; pointer-events:none; }
+    .poll-option:hover { border-color:var(--red); background:rgba(124,58,237,0.06); }
+    .poll-option.voted { border-color:var(--red); background:rgba(124,58,237,0.08); cursor:default; pointer-events:none; }
     .poll-label { font-weight:600; font-size:0.9rem; flex:1; }
     .poll-bar-wrap { flex:2; height:6px; background:var(--grey-mid); border-radius:99px; overflow:hidden; }
-    .poll-bar { height:100%; background:linear-gradient(90deg,var(--red),var(--blue-mid)); border-radius:99px; transition:width 0.6s ease; }
+    .poll-bar { height:100%; background:linear-gradient(90deg,var(--red),#a855f7); border-radius:99px; transition:width 0.6s ease; }
     .poll-pct { font-weight:700; font-size:0.85rem; color:var(--red); min-width:3rem; text-align:right; }
     .poll-footer { margin-top:1rem; font-size:0.8rem; color:var(--text-muted); font-weight:500; }
 
@@ -258,7 +258,7 @@
     #gallery { background:var(--deep); }
     .gallery-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.75rem; }
     .gallery-slot { aspect-ratio:1; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:16px; overflow:hidden; position:relative; cursor:pointer; transition:all 0.2s; display:flex; flex-direction:column; align-items:center; justify-content:center; }
-    .gallery-slot:hover { border-color:rgba(192,57,43,0.6); background:rgba(192,57,43,0.08); }
+    .gallery-slot:hover { border-color:rgba(124,58,237,0.7); background:rgba(124,58,237,0.1); }
     .gallery-slot img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:none; }
     .gallery-hint { color:rgba(255,255,255,0.2); font-size:0.75rem; text-align:center; }
     .gallery-hint svg { width:28px; height:28px; margin-bottom:0.4rem; display:block; margin-left:auto; margin-right:auto; }
@@ -267,8 +267,8 @@
     #plan { background:var(--black); }
     .plan-list { max-width:740px; margin:0 auto; }
     .plan-item { display:flex; gap:2rem; padding-bottom:2.5rem; position:relative; }
-    .plan-item:not(:last-child)::after { content:''; position:absolute; left:1.35rem; top:2.7rem; bottom:0; width:1px; background:linear-gradient(to bottom,rgba(192,57,43,0.5),transparent); }
-    .plan-num { width:2.7rem; height:2.7rem; flex-shrink:0; background:rgba(192,57,43,0.15); border:1px solid rgba(192,57,43,0.4); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:800; color:var(--red-light); letter-spacing:0.5px; }
+    .plan-item:not(:last-child)::after { content:''; position:absolute; left:1.35rem; top:2.7rem; bottom:0; width:1px; background:linear-gradient(to bottom,rgba(124,58,237,0.55),transparent); }
+    .plan-num { width:2.7rem; height:2.7rem; flex-shrink:0; background:rgba(124,58,237,0.18); border:1px solid rgba(192,57,43,0.4); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:800; color:var(--red-light); letter-spacing:0.5px; }
     .plan-body { flex:1; padding-top:0.2rem; }
     .plan-body h3 { color:var(--white); font-weight:700; font-size:1rem; margin-bottom:0.4rem; }
     .plan-body p { color:rgba(255,255,255,0.45); font-size:0.88rem; line-height:1.7; }
@@ -292,7 +292,7 @@
     .support-input-row input::placeholder { color:rgba(255,255,255,0.25); }
     .support-input-row input:focus { outline:none; border-color:var(--red); }
     .support-wall { display:flex; flex-wrap:wrap; gap:0.6rem; min-height:48px; }
-    .support-chip { background:rgba(192,57,43,0.14); border:1px solid rgba(192,57,43,0.3); color:rgba(255,255,255,0.8); border-radius:99px; padding:0.4rem 1rem; font-size:0.82rem; font-weight:600; animation:popIn 0.3s ease; }
+    .support-chip { background:rgba(124,58,237,0.15); border:1px solid rgba(192,57,43,0.3); color:rgba(255,255,255,0.8); border-radius:99px; padding:0.4rem 1rem; font-size:0.82rem; font-weight:600; animation:popIn 0.3s ease; }
     @keyframes popIn { from{transform:scale(0.7);opacity:0} to{transform:scale(1);opacity:1} }
     .support-count { margin-top:1.25rem; font-size:0.8rem; color:rgba(255,255,255,0.3); font-weight:500; }
 
@@ -307,7 +307,7 @@
     .blog-body h3 { font-weight:700; font-size:1rem; color:var(--text); margin-bottom:0.5rem; line-height:1.3; }
     .blog-body p { font-size:0.85rem; color:var(--text-muted); line-height:1.7; }
     .blog-add { background:transparent; border:1.5px dashed var(--grey-mid); border-radius:20px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; cursor:pointer; padding:2.5rem 2rem; gap:0.5rem; transition:all 0.2s; color:var(--text-muted); }
-    .blog-add:hover { border-color:var(--red); color:var(--red); background:rgba(192,57,43,0.04); }
+    .blog-add:hover { border-color:var(--red); color:var(--red); background:rgba(124,58,237,0.06); }
 
     /* ── SUGGEST ── */
     #recommend { background:var(--white); }
@@ -389,7 +389,7 @@
 <nav>
   <a class="nav-brand" href="#">
     <div class="nav-brand-dot"></div>
-    <span class="nav-brand-text">Sophia 2026</span>
+    <span class="nav-brand-text">Jazleen 2026</span>
   </a>
   <ul class="nav-links">
     <li><a href="#meet">About</a></li>
@@ -410,12 +410,12 @@
 <div style="margin-top:64px;">
   <div class="marquee-wrap">
     <div class="marquee-track">
-      <span>Vote Sophia Ladron for Student Body President</span><span class="sep">·</span>
-      <span>The American Dream School</span><span class="sep">·</span>
+      <span>Vote Jazleen Nolasco for Student Body President</span><span class="sep">·</span>
+      <span>Belmont Preparatory</span><span class="sep">·</span>
       <span>Building the bridge between students & leadership</span><span class="sep">·</span>
       <span>Your school. Your voice. Your president.</span><span class="sep">·</span>
-      <span>Vote Sophia Ladron for Student Body President</span><span class="sep">·</span>
-      <span>The American Dream School</span><span class="sep">·</span>
+      <span>Vote Jazleen Nolasco for Student Body President</span><span class="sep">·</span>
+      <span>Belmont Preparatory</span><span class="sep">·</span>
       <span>Building the bridge between students & leadership</span><span class="sep">·</span>
       <span>Your school. Your voice. Your president.</span><span class="sep">·</span>
     </div>
@@ -431,13 +431,13 @@
 
   <div class="hero-eyebrow">
     <div class="hero-eyebrow-dot"></div>
-    The American Dream School · Student Body President · 2026
+    Belmont Preparatory · Student Body President · 2026
   </div>
 
   <h1>This School<br/>Belongs to <em contenteditable="true">All of Us</em></h1>
 
   <p class="hero-sub">
-    My name is <strong contenteditable="true">Sophia Ladron</strong>, and I'm running because every student
+    My name is <strong contenteditable="true">Jazleen Nolasco</strong>, and I'm running because every student
     deserves to feel like this school is truly theirs — not just somewhere they show up to.
   </p>
 
@@ -469,7 +469,7 @@
     <div class="meet-grid">
       <div class="photo-outer">
         <div class="photo-frame">
-          <img id="candidate-photo" src="" alt="Sophia Ladron"/>
+          <img id="candidate-photo" src="" alt="Jazleen Nolasco"/>
           <div class="photo-placeholder" id="photo-placeholder">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
             <p>Upload your photo</p>
@@ -483,7 +483,7 @@
       </div>
       <div>
         <div class="section-eyebrow">Meet the Candidate</div>
-        <h2 class="section-title" contenteditable="true">I'm Sophia —<br/>and I believe in this school.</h2>
+        <h2 class="section-title" contenteditable="true">I'm Jazleen —<br/>and I believe in this school.</h2>
         <p class="section-desc" contenteditable="true">I'm a proud student who's tired of feeling invisible. I'm running because I know we have an opportunity to make real change — and I want to be the bridge that connects that energy to every single student in this building.</p>
         <p class="section-desc" contenteditable="true">This isn't about promises. It's about building a culture where every student owns a piece of this school — where involvement isn't optional, it's the norm.</p>
         <div class="badge-row" id="badge-row">
@@ -508,7 +508,7 @@
   <div class="container">
     <div class="center" style="margin-bottom:3rem;">
       <div class="section-eyebrow" style="color:var(--red-light);">By the Numbers</div>
-      <h2 class="section-title title-white">Why Sophia?</h2>
+      <h2 class="section-title title-white">Why Jazleen?</h2>
     </div>
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-num" contenteditable="true">3</div><div class="stat-label">Years at the School</div></div>
@@ -538,7 +538,7 @@
         </div>
         <div class="video-info">
           <h3 contenteditable="true">My Campaign Introduction</h3>
-          <p contenteditable="true">Hear directly from Sophia — who she is, why she's running, and what she stands for.</p>
+          <p contenteditable="true">Hear directly from Jazleen — who she is, why she's running, and what she stands for.</p>
           <div class="video-url-row">
             <input id="url1" type="text" placeholder="Paste YouTube URL…"/>
             <button class="btn-load" onclick="loadVideo(1)">Load</button>
@@ -555,7 +555,7 @@
         </div>
         <div class="video-info">
           <h3 contenteditable="true">Platform & Vision</h3>
-          <p contenteditable="true">A deeper look at the ideas Sophia will bring to The American Dream School.</p>
+          <p contenteditable="true">A deeper look at the ideas Jazleen will bring to Belmont Preparatory.</p>
           <div class="video-url-row">
             <input id="url2" type="text" placeholder="Paste YouTube URL…"/>
             <button class="btn-load" onclick="loadVideo(2)">Load</button>
@@ -572,14 +572,14 @@
     <div class="center" style="margin-bottom:3rem;">
       <div class="section-eyebrow">Platform</div>
       <h2 class="section-title">Three Pillars. Real Change.</h2>
-      <p class="section-desc">Within what a student president can actually do — here's what Sophia will fight for.</p>
+      <p class="section-desc">Within what a student president can actually do — here's what Jazleen will fight for.</p>
     </div>
     <div class="ideas-grid" id="ideas-grid">
       <div class="idea-card">
         <div class="idea-tag">Pillar One</div>
         <span class="idea-icon" contenteditable="true">🌉</span>
         <h3 contenteditable="true">The Bridge</h3>
-        <p contenteditable="true">Structured communication between students and admin. Monthly town halls, a real feedback pipeline, and Sophia as the direct line — so your concerns don't disappear into a suggestion box.</p>
+        <p contenteditable="true">Structured communication between students and admin. Monthly town halls, a real feedback pipeline, and Jazleen as the direct line — so your concerns don't disappear into a suggestion box.</p>
       </div>
       <div class="idea-card">
         <div class="idea-tag">Pillar Two</div>
@@ -591,7 +591,7 @@
         <div class="idea-tag">Pillar Three</div>
         <span class="idea-icon" contenteditable="true">🔥</span>
         <h3 contenteditable="true">Fuel the Pride</h3>
-        <p contenteditable="true">Sophia will work alongside school leadership — filling time with student-led programming, culture events, and recognition that goes beyond grades.</p>
+        <p contenteditable="true">Jazleen will work alongside school leadership — filling time with student-led programming, culture events, and recognition that goes beyond grades.</p>
       </div>
       <div class="idea-card">
         <span class="idea-icon" contenteditable="true">🎉</span>
@@ -620,7 +620,7 @@
       <p class="section-desc">This is unofficial and just for fun — real votes happen at school on election day.</p>
     </div>
     <div class="poll-inner">
-      <div class="poll-note">⚠️ Unofficial straw poll only — official votes are counted at The American Dream School on election day.</div>
+      <div class="poll-note">⚠️ Unofficial straw poll only — official votes are counted at Belmont Preparatory on election day.</div>
       <div class="poll-option" onclick="castVote(0)"><span class="poll-label">🌉 The Bridge — Student-Admin Communication</span><div class="poll-bar-wrap"><div class="poll-bar" id="bar-0" style="width:0%"></div></div><span class="poll-pct" id="pct-0">0%</span></div>
       <div class="poll-option" onclick="castVote(1)"><span class="poll-label">🏛️ Own Your School — Student Leadership Roles</span><div class="poll-bar-wrap"><div class="poll-bar" id="bar-1" style="width:0%"></div></div><span class="poll-pct" id="pct-1">0%</span></div>
       <div class="poll-option" onclick="castVote(2)"><span class="poll-label">🔥 Fuel the Pride — Events & Culture</span><div class="poll-bar-wrap"><div class="poll-bar" id="bar-2" style="width:0%"></div></div><span class="poll-pct" id="pct-2">0%</span></div>
@@ -637,7 +637,7 @@
     <div class="center" style="margin-bottom:3rem;">
       <div class="section-eyebrow" style="color:var(--red-light);">Gallery</div>
       <h2 class="section-title title-white">Photos</h2>
-      <p class="section-desc desc-white">Click any slot to upload a photo of Sophia at school events.</p>
+      <p class="section-desc desc-white">Click any slot to upload a photo of Jazleen at school events.</p>
     </div>
     <div class="gallery-grid" id="gallery-grid">
       <div class="gallery-slot" onclick="uploadGalleryPhoto(0)"><img id="gimg-0"/><div class="gallery-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>Add photo</div></div>
@@ -658,7 +658,7 @@
   <div class="container">
     <div class="center" style="margin-bottom:3.5rem;">
       <div class="section-eyebrow" style="color:var(--red-light);">The Plan</div>
-      <h2 class="section-title title-white">Sophia's First 100 Days</h2>
+      <h2 class="section-title title-white">Jazleen's First 100 Days</h2>
       <p class="section-desc desc-white">No empty promises. Here's the exact roadmap from day one.</p>
     </div>
     <div class="plan-list">
@@ -676,21 +676,21 @@
   <div class="container">
     <div class="center" style="margin-bottom:3rem;">
       <div class="section-eyebrow">Endorsements</div>
-      <h2 class="section-title">Students Believe in Sophia</h2>
+      <h2 class="section-title">Students Believe in Jazleen</h2>
       <p class="section-desc">Click any card to edit with real quotes.</p>
     </div>
     <div class="endorse-grid">
       <div class="endorse-card">
         <div class="endorse-stars">★★★★★</div>
-        <p class="endorse-quote" contenteditable="true">Sophia is the most organized and passionate student I've worked with. She follows through on everything she says she'll do.</p>
+        <p class="endorse-quote" contenteditable="true">Jazleen is the most organized and passionate student I've worked with. She follows through on everything she says she'll do.</p>
         <div class="endorse-person">
           <div class="endorse-avatar">M</div>
-          <div><div class="endorse-name" contenteditable="true">Mr. Johnson</div><div class="endorse-role" contenteditable="true">Math Teacher · The American Dream School</div></div>
+          <div><div class="endorse-name" contenteditable="true">Mr. Johnson</div><div class="endorse-role" contenteditable="true">Math Teacher · Belmont Preparatory</div></div>
         </div>
       </div>
       <div class="endorse-card">
         <div class="endorse-stars">★★★★★</div>
-        <p class="endorse-quote" contenteditable="true">She actually listens. Sophia is the kind of leader who makes sure everyone in the room feels heard. That's rare.</p>
+        <p class="endorse-quote" contenteditable="true">She actually listens. Jazleen is the kind of leader who makes sure everyone in the room feels heard. That's rare.</p>
         <div class="endorse-person">
           <div class="endorse-avatar">C</div>
           <div><div class="endorse-name" contenteditable="true">Coach Williams</div><div class="endorse-role" contenteditable="true">Athletics Coach</div></div>
@@ -698,10 +698,10 @@
       </div>
       <div class="endorse-card">
         <div class="endorse-stars">★★★★★</div>
-        <p class="endorse-quote" contenteditable="true">I've been Sophia's classmate for two years. She's genuine, hardworking, and really cares about this school. She has my vote.</p>
+        <p class="endorse-quote" contenteditable="true">I've been Jazleen's classmate for two years. She's genuine, hardworking, and really cares about this school. She has my vote.</p>
         <div class="endorse-person">
           <div class="endorse-avatar">M</div>
-          <div><div class="endorse-name" contenteditable="true">Maya T.</div><div class="endorse-role" contenteditable="true">12th Grade · The American Dream School</div></div>
+          <div><div class="endorse-name" contenteditable="true">Maya T.</div><div class="endorse-role" contenteditable="true">12th Grade · Belmont Preparatory</div></div>
         </div>
       </div>
     </div>
@@ -713,7 +713,7 @@
   <div class="container">
     <div class="center" style="margin-bottom:2.5rem;">
       <div class="section-eyebrow" style="color:var(--red-light);">Pledge Wall</div>
-      <h2 class="section-title title-white">I'm Voting Sophia</h2>
+      <h2 class="section-title title-white">I'm Voting Jazleen</h2>
       <p class="section-desc desc-white">Add your name. Show the school what students look like when they're united.</p>
     </div>
     <div class="support-inner">
@@ -722,7 +722,7 @@
         <button class="btn-primary" onclick="addSupporter()">Add My Name</button>
       </div>
       <div class="support-wall" id="support-wall"></div>
-      <div class="support-count" id="support-count">0 students standing with Sophia</div>
+      <div class="support-count" id="support-count">0 students standing with Jazleen</div>
     </div>
   </div>
 </section>
@@ -742,7 +742,7 @@
       </div>
       <div class="blog-card">
         <div class="blog-top"><div class="blog-date" contenteditable="true">Coming Soon</div></div>
-        <div class="blog-body"><h3 contenteditable="true">Talking to Students This Week</h3><p contenteditable="true">Sophia will be at lunch tables all week. Come find her — she wants to know what YOU think needs to change at The American Dream School.</p></div>
+        <div class="blog-body"><h3 contenteditable="true">Talking to Students This Week</h3><p contenteditable="true">Jazleen will be at lunch tables all week. Come find her — she wants to know what YOU think needs to change at Belmont Preparatory.</p></div>
       </div>
       <div class="blog-add" onclick="addBlogPost()">
         <span style="font-size:1.5rem;">✍️</span>
@@ -758,7 +758,7 @@
     <div class="center" style="margin-bottom:3rem;">
       <div class="section-eyebrow">Your Voice</div>
       <h2 class="section-title">Send a Suggestion</h2>
-      <p class="section-desc">Have an idea you want Sophia to champion? Every submission is read personally.</p>
+      <p class="section-desc">Have an idea you want Jazleen to champion? Every submission is read personally.</p>
     </div>
     <div class="rec-inner">
       <div class="form-group"><label class="form-label">Your Name (optional)</label><input class="form-input" type="text" id="rec-name" placeholder="e.g. Alex W."/></div>
@@ -767,7 +767,7 @@
           <option>🌉 Communication & Bridge</option><option>🏛️ Student Leadership</option><option>🔥 School Culture & Events</option><option>🏆 Recognition</option><option>📚 Academics</option><option>💡 Something New</option>
         </select>
       </div>
-      <div class="form-group"><label class="form-label">Your Suggestion *</label><textarea class="form-input" id="rec-text" placeholder="What do you want to see change at The American Dream School?"></textarea></div>
+      <div class="form-group"><label class="form-label">Your Suggestion *</label><textarea class="form-input" id="rec-text" placeholder="What do you want to see change at Belmont Preparatory?"></textarea></div>
       <button class="btn-primary" onclick="submitRec()">Submit Suggestion</button>
       <div class="success-toast" id="success-msg">✅ Thank you! Your suggestion has been received.</div>
       <div class="rec-cards" id="rec-cards"></div>
@@ -784,17 +784,17 @@
     </div>
     <div class="faq-list">
       <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>What can a student body president actually change?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">More than you think. A president can directly influence school events, student recognition programs, how admin hears student concerns, how free time is used, and the overall culture of the school. It's real influence — if you use it strategically and build the right relationships.</div></div>
-      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>Why Sophia, and why now?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">Sophia's platform is built specifically to turn energy into something that lasts beyond this year. This is a rare window — and she's ready to make the most of it.</div></div>
-      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>When and how do I vote?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">Official voting happens at The American Dream School on election day. Check with your school for the exact date, location, and process. The poll on this site is an unofficial straw poll only.</div></div>
-      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>How can I support the campaign?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">Share this website with every student you know. Add your name to the pledge wall. Submit a suggestion. Talk to Sophia at lunch — she's always around. And show up on election day.</div></div>
-      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>Will Sophia actually follow through after the election?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">That's exactly why the 100-Day Plan exists with specific milestones and a public progress report built in. Accountability isn't optional — it's part of the platform.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>Why Jazleen, and why now?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">Jazleen's platform is built specifically to turn energy into something that lasts beyond this year. This is a rare window — and she's ready to make the most of it.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>When and how do I vote?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">Official voting happens at Belmont Preparatory on election day. Check with your school for the exact date, location, and process. The poll on this site is an unofficial straw poll only.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>How can I support the campaign?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">Share this website with every student you know. Add your name to the pledge wall. Submit a suggestion. Talk to Jazleen at lunch — she's always around. And show up on election day.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><span>Will Jazleen actually follow through after the election?</span><div class="faq-arrow"><svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a">That's exactly why the 100-Day Plan exists with specific milestones and a public progress report built in. Accountability isn't optional — it's part of the platform.</div></div>
     </div>
   </div>
 </section>
 
 <!-- SHARE STRIP -->
 <div class="share-strip">
-  <p>Love what you see? Share Sophia's campaign with every student.</p>
+  <p>Love what you see? Share Jazleen's campaign with every student.</p>
   <button class="share-btn" onclick="shareLink()">Copy Campaign Link</button>
   <span class="share-copied" id="share-copied">✅ Copied!</span>
 </div>
@@ -803,8 +803,8 @@
 <footer>
   <div class="footer-inner">
     <div>
-      <div class="footer-brand">Sophia Ladron for <span>President</span></div>
-      <div class="footer-meta" style="margin-top:0.5rem;">The American Dream School · 2026<br/>"This school belongs to all of us."</div>
+      <div class="footer-brand">Jazleen Nolasco for <span>President</span></div>
+      <div class="footer-meta" style="margin-top:0.5rem;">Belmont Preparatory · 2026<br/>"Every student deserves a voice."</div>
     </div>
     <div class="footer-links">
       <a href="#meet">About</a>
@@ -880,7 +880,7 @@ function addSupporter() {
   const n=document.getElementById('support-name').value.trim(); if(!n) return;
   supporters.push(n); document.getElementById('support-name').value='';
   document.getElementById('support-wall').innerHTML=supporters.map(s=>`<div class="support-chip">⭐ ${s}</div>`).join('');
-  document.getElementById('support-count').textContent=supporters.length+' student'+(supporters.length!==1?'s':'')+' standing with Sophia';
+  document.getElementById('support-count').textContent=supporters.length+' student'+(supporters.length!==1?'s':'')+' standing with Jazleen';
 }
 function toggleFaq(el) { el.parentElement.classList.toggle('open'); }
 function addBlogPost() {
